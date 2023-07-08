@@ -1,0 +1,37 @@
+@media screen and (max-width: 1121px)
+{
+.nevigation{
+        flex-direction:column;
+        margin-bottom: 23px;
+}
+.nav-left{
+        flex-direction: column;
+        text-align: center;
+}
+
+.cosmos-article{
+    flex-direction: column;
+}
+.cosmos-article-img{
+    text-align: center;
+}
+.year-box{
+    position:absolute;
+    right:0px;
+    left: 60vw;
+    top: 0px;
+    height: 255px;
+    font-size:11px;
+    display: flex;
+}
+.year-box div{
+    padding: 0 3px;
+    margin:  0;
+}
+cosmos-article img{
+    width: 70vw;
+}
+.form-input{
+    width:50%;
+}
+}

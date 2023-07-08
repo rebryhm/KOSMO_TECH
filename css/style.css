@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin-top: 40px;
+    margin-bottom:30px;
+    font-family: var(--font1);
+    height: 74px;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-left {
+    font-size: 35px;
+    display: flex;
+    font-weight: bold;
+    border-bottom: "20px";
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 70px;
+    font-size: 15px;
+    padding:15px;  
+
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 15px;
+    font-family: var(--font2);
+    font-size: 28px;
+    transition: all 0.0s ease-in-out;
+}
+
+.nav-left ul a {
+    text-decoration: none;
+    color: rgb(69, 22, 22);
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+.content-left {
+    height: 95px;
+    font-family: var(--font2);
+    width: 90%;
+    font-size: 19px;
+    color: rgb(6, 60, 104);
+    padding: 30px;
+
+
+}
+
+.content-right {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+    text-align: center;
+    height: 390px;
+
+
+
+}
+
+.content-right img {
+
+    height: 197px;
+    border-radius: 116px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    z-index: 1;
+
+}
+
+.content {
+    display: flex;
+    height: 500px;
+    color: white;
+    position: relative;
+     
+}
+.content::after{
+    content:"";
+    background-image: url("../img/stars.jpg");
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.5;
+    border-radius: 19px;
+    
+}
+
+
+.cosmos-articles {
+    
+   background-color: white;
+    padding-top: 15px;
+    position: relative;
+}
+
+.year-box{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background: white;
+    right: 1px;
+    top: 60px;
+    display: flex;
+}
+.year-box div{
+    margin: 12px 0px;
+}
+.cosmos-article {
+    display: flex;
+   
+    margin: 25px;
+}
+.cosmos-article img{
+    width: 350px;
+    padding: 20px;
+   
+}
+.cosmos-article-content{
+    align-self: center;
+    padding: 20px;
+}
+.cosmos-article-content a{
+    text-decoration: none;
+    color: rgb(14, 43, 46);
+}
+
+
+/*.cosmos-articles{
+
+}*/
+.footer {
+    height: 100px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+}
+
+.footer a {
+    color: black;
+}

@@ -1,0 +1,22 @@
+.contact-content{
+    height: 500px;
+    color: rgb(40, 17, 17);
+    position: relative;
+    top: 0;
+    z-index: -1;
+    overflow: hidden;
+     
+}
+    .contact-content::after{
+        content:"";
+        background-image: url("../img/stars.jpg");
+        position: absolute;
+        width: 100%;
+        height: inherit;
+        opacity: 0.5;
+        border-radius: 20px;
+        top: 0;
+        z-index: -1;
+       
+        
+    }

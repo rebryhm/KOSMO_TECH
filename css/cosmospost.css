@@ -1,0 +1,48 @@
+.postimg{
+    display: block;
+    height: 2px;
+    overflow: hidden;
+    margin-top: 2px;
+   
+}
+.post-img img{
+    width: 12px;
+    height: 12px;
+   
+}
+.blog-post-content{
+    background-color: rgb(221, 240, 242);
+    text-align:center;
+    font-size: 22px;
+   
+}
+.row{
+    display: flex;
+    
+
+}
+.more-post{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+}
+.cosmospost-meta{
+    
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+}
+.author-info{
+    margin: 12px 0px;
+}
+
+.author-info div{
+    padding: 4px 1px;
+    font-family: var(--font2);
+}
+
+.social{
+    padding-right: 53px;
+    align-self: center;
+    cursor: pointer;
+}
